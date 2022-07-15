@@ -1,0 +1,4 @@
+# BTK AKADEMI LECTURE NOTES 
+
+
+
