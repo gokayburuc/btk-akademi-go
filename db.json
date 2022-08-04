@@ -1,0 +1,28 @@
+{
+    "products":[
+        {
+            "id":1,
+            "title":"json",
+            "author":"markup language"
+        }
+    ], 
+    "comments":[
+        {
+            "id":1,
+            "body":"Comment about something",
+            "postID":1
+        }
+    ],
+    "categories":[
+        {
+            "id":1,
+            "categoryName":"Tech",
+            "categoryID":1
+        },
+        {
+            "id":2,
+            "categoryName":"Food",
+            "categoryID":2
+        }
+    ]
+}

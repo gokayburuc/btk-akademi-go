@@ -1,13 +1,17 @@
 package main
 
 import (
-	"btklesson/for_range"
+	"btklesson/restful"
 )
 
 func main() {
 	//var degisken float64
 	//var sayi int = 15
 	// variables.Demo()
+	// variables.Demo2()
+	// variables.Demo3()
+	// variables.Demo4()
+	// constants.Demo1()
 	// fmt.Println("This is it!")
 	// fmt.Print("We are here right now!")
 	// fmt.Printf("DOSYA TÜRÜ : %T\n", degisken)
@@ -53,5 +57,9 @@ func main() {
 	// fmt.Println(functions.ToplaVariadic(mynumber...))
 	// maps.Demo1()
 
-	for_range.Demo1()
+	// for_range.Demo1()
+
+	// string_operations.Demo1()
+	restful.Demo2()
+	restful.Demo1()
 }

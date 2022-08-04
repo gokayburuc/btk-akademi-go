@@ -1,0 +1,31 @@
+{
+    "product":[
+        {
+            "id":1,
+            "ProductName":"Sony Laptop",
+            "CategoryID":1,
+            "UnitPrice":5000
+        },
+        {
+            "id":2,
+            "ProductName":"Dell Laptop",
+            "CategoryID":1,
+            "UnitPrice":5300
+        },
+ 
+    ],
+    "TecnicalDetails":[
+        {
+            "id":1,
+            "ScreenSize":15.40 ,
+            "Processor":"Intel I5",
+            "Video Card":"AMD Athlon 5400x"
+        },
+        {
+            "id":2,
+            "ScreenSize":15.30 ,
+            "Processor":"Intel I7",
+            "Video Card":"AMD Athlon 8500x"
+        }
+    ]
+}
