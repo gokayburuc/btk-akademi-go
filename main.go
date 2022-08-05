@@ -1,7 +1,7 @@
 package main
 
 import (
-	"btklesson/restful"
+	deferstatement "btklesson/defer_statement"
 )
 
 func main() {
@@ -60,6 +60,11 @@ func main() {
 	// for_range.Demo1()
 
 	// string_operations.Demo1()
-	restful.Demo2()
-	restful.Demo1()
+	// restful.Demo2()
+	// restful.Demo1()
+
+	// deferstatement.B()
+	// deferstatement.A()
+
+	deferstatement.Test()
 }
