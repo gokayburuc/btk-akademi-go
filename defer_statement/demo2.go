@@ -1,12 +1,12 @@
 package deferstatement
 
 import (
-"fmt"
+	"fmt"
 )
 
 func OddEven(sayi int32) string {
 	defer DeferFunc()
-	
+
 	if sayi%2 == 0 {
 		return "Cift sayidir"
 	}
@@ -17,12 +17,11 @@ func OddEven(sayi int32) string {
 	return "Belli degil"
 }
 
-
-func DeferFunc(){
+func DeferFunc() {
 	fmt.Println("Defer Func Calisti.İslem Sona Erdi.")
 }
 
-func Test(){
+func Test() {
 	yanit := OddEven(23)
 	fmt.Println(yanit)
 

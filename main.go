@@ -1,7 +1,7 @@
 package main
 
 import (
-	deferstatement "btklesson/defer_statement"
+	errorhandling "btklesson/error_handling"
 )
 
 func main() {
@@ -66,5 +66,10 @@ func main() {
 	// deferstatement.B()
 	// deferstatement.A()
 
-	deferstatement.Test()
+	// deferstatement.Test()
+
+	// errorhandling.Demo1()
+	// errorhandling.CatchError()
+	errorhandling.Demo3()
+
 }
